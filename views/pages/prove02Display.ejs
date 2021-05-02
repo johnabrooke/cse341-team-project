@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ../includes/header.ejs %>
+</head>
+
+<body>
+    <% include ../includes/nav.ejs %>
+    <div class="jumbotron text-center">
+        <div class="container">
+            <h1><%= title %></h1>
+        </div>
+    </div>
+    <div class="container">
+        <ul>
+            <% for (const book of bookList.title) { %>
+                <li><%= book  %></li>
+            <% } %>
+        </ul>
+    </div>
+</body>
+</html>
