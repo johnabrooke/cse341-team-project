@@ -12,11 +12,17 @@
         </div>
     </div>
     <div class="container">
-        <ul>
-            <% for (const book of bookList.title) { %>
-                <li><%= book  %></li>
-            <% } %>
-        </ul>
+        <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+                <h2>Title</h2>
+                <h3><%= book %></h3>
+                <h2>Summary</h2>
+                <h3><%= summary %></h3>
+            </div>
+            <div class="col-sm-4"></div>
+        </div>
+        <div class="row"></div>
     </div>
 </body>
 </html>

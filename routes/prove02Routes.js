@@ -15,16 +15,18 @@ router.get('/', (req, res, next) => {
 
 router.post('/', (req, res, next) => {
     bookList.push({ 
-        title: req.body.book,
+        book: req.body.book,
         summary: req.body.summary
     });
     console.log(bookList);
     res.render('pages/prove02Display', {
-        title: 'View Books',
-        path: '/prove02Display'
+        title: 'Book Summaries',
+        path: '/prove02Display',
+        book: req.body.book,
+        summary: req.body.summary
     });
 });
 
-    module.exports = router;
+module.exports = router;
 // exports.routes = router;
 // exports.bookList = bookList;

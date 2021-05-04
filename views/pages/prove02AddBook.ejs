@@ -12,15 +12,23 @@
         </div>
     </div>
     <div class="container">
-        <form class="product-form" action="/prove02Display" method="POST">
-            <div class="form-control">
-                <label for="book">Enter the Book Title</label>
-                <input type="text" name="book" id="book">
-                <label for="summary">Enter a Summary of the Book</label>
-                <input type="text" name="summary" id="summary">
-                <button class="btn" type="submit">Add Book</button>
+        <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+                <form class="product-form" action="/prove02Display" method="POST">
+                    <div class="form-group">
+                        <label for="book">Enter the Book Title</label>
+                        <input class="form-control" type="text" name="book" id="book">
+                    </div>
+                    <div class="form-group">
+                        <label for="summary">Enter a Summary of the Book</label>
+                        <textarea class="form-control" name="summary" id="summary"></textarea>
+                    </div>
+                    <button class="btn btn-primary btn-lg" type="submit">Submit</button>
+                </form>
             </div>
-        </form>
+            <div class="col-sm-4"></div>
+        </div>
     </div>
 </body>
 </html>
