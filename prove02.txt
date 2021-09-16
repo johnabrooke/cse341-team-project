@@ -1,0 +1,22 @@
+After completing the assignment, be sure to push to Github and Heroku.
+Please answer the questions in this text file and submit it to I-Learn.
+
+1. Copy and paste the URL for your web application (e.g., Heroku):
+    https://cse341-john-project1.herokuapp.com/
+2. Copy and paste the URL for your source code repository (e.g., GitHub):
+    https://github.com/johnabrooke/cse341-team-project.git
+3. Briefly list and describe the elements of the application that are functioning. 
+    Steps 1 and 2.
+4. Briefly describe any pieces of the assignment that are not yet working correctly.
+    Step 3, going above and beyond.
+5. Briefly describe the "coolest" thing you learned while completing this assignment.
+    How to combine git remotes into one push, so I can push to Heroku and Github in one push.
+6. If you could change this assignment to be more effective or helpful, what would you change?
+    It would be nice to have some references/reminders on how the express router and getting the post to go
+    to a separate ejs file.  The Academind course is great, but it can take quite a bit of time to find specific
+    pieces needed for a refresher.
+7. Please select the category you feel best describes your assignment:
+   4 - Meets requirements
+
+8. Provide a brief justification (1-2 sentences) for selecting that category.
+    I met the core requirements, but didn't pull off step 3.

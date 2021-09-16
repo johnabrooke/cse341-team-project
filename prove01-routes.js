@@ -9,7 +9,7 @@ const requestBus = (req, res) => {
         res.write(`<head><title>Enter Username</title></head>`);
         res.write(`<body>
                     <h1>Hello there!</h1>
-                    <form action="/create-user" method="POST"><label for="username">Username </label><input type="text" name="username"></input> <button type="submit">Submit</button></form>
+                    <form action="/create-user" method="POST"><label for="username">Username </label><input type="text" name="username" id="name"></input> <button type="submit">Submit</button></form>
                 </body>`);
         res.write(`</html>`);
         return res.end();
@@ -18,13 +18,14 @@ const requestBus = (req, res) => {
         res.write(`<html>
                     <head><title>List of Users</title></head>
                     <body>
-                        <ul>
+                        <ul id="list">
                             <li>Joe</li>
                             <li>Havica</li>
                             <li>Supero</li>
                             <li>Awecool</li>
-                            <script>parentNode.append(username);</script>
                         </ul>
+                        <script>let listItem = 
+                        <script>document.getElementById("list").appendChild;</script>
                     </body>
                 </html>`);
         return res.end();
