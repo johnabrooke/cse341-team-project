@@ -6,7 +6,7 @@ Please answer the questions in this text file and submit it to I-Learn.
 3. Briefly list and describe the elements of the application that are functioning. 
     All elements of the application are functioning, except going above and beyond.
 4. Briefly describe any pieces of the assignment that are not yet working correctly.
-    Line 26 in file prove01-routes.js (working on above and beyond).
+    Lines 30 to 37 in file prove01-routes.js (working on above and beyond).
 5. Briefly describe the "coolest" thing you learned while completing this assignment.
     I gained a better understanding of how node.js works from the readings lessons.
 6. If you could change this assignment to be more effective or helpful, what would you change?
