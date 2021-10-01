@@ -5,6 +5,7 @@ Please answer the questions in this text file and submit it to I-Learn.
     https://cse341-john-project1.herokuapp.com/
 2. Copy and paste the URL for your source code repository (e.g., GitHub):
     https://github.com/johnabrooke/cse341-team-project.git
+    Branch with latest changes: https://github.com/johnabrooke/cse341-team-project/tree/spring-latest-changes
 3. Briefly list and describe the elements of the application that are functioning. 
     Steps 1 and 2.
 4. Briefly describe any pieces of the assignment that are not yet working correctly.
